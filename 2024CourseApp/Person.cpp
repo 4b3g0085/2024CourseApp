@@ -1,9 +1,9 @@
-#include "Person.h"
+ï»¿#include "Person.h"
 #include <string>
 #include <iostream>
 using namespace std;
 
-// Constructor, «Øºc¤l, «Øºc¨ç¼Æ
+// Constructor, å»ºæ§‹å­, å»ºæ§‹å‡½æ•¸
 //Person::Person(const string& id, const string& lastName, const string& firstName, const string& gender, const string& birthDate)
 //{
 //	this->id = id;
@@ -74,8 +74,8 @@ void Person::setBirthDate(const string& birthDate)
 void Person::display() const
 {
 	cout << "ID: " << id << endl;
-	cout << "©m: " << lastName << endl;
-	cout << "¦W: " << firstName << endl;
-	cout << "©Ê§O: " << gender << endl;
-	cout << "¥Í¤é: " << birthDate << endl;
+	cout << "Last Name: " << lastName << endl;
+	cout << "First Name: " << firstName << endl;
+	cout << "Gender: " << gender << endl;
+	cout << "Birthday: " << birthDate << endl;
 }

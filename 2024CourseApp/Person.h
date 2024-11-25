@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 #include <string>
 using namespace std;
 
@@ -12,18 +12,18 @@ private:
 	string birthDate;
 
 public:
-	// Constructor, «Øºc¤l, «Øºc¨ç¼Æ
+	// Constructor, å»ºæ§‹å­, å»ºæ§‹å‡½æ•¸
 	Person(const string& id, const string& lastName, const string& firstName, const string& gender, const string& birthDate);
 	Person();
 
-	// Getter, ¨ú­È¨ç¼Æ
+	// Getter, å–å€¼å‡½æ•¸
 	string getId() const;
 	string getLastName() const;
 	string getFirstName() const;
 	string getGender() const;
 	string getBirthDate() const;
 
-	// Setter, ³]­È¨ç¼Æ
+	// Setter, è¨­å€¼å‡½æ•¸
 	void setId(const string& id);
 	void setLastName(const string& lastName);
 	void setFirstName(const string& firstName);
