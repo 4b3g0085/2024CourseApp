@@ -56,5 +56,8 @@
     <ClInclude Include="Record.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="2024CourseApp.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

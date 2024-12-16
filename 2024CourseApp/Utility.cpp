@@ -13,7 +13,7 @@ string Utility::toString(Department department)
 	case Department::InformationManagement:
 		return "資訊管理";
 	default:
-		return "Unknown Department";
+		return "未知科系";
 	}
 }
 
