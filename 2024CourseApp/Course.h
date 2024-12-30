@@ -5,6 +5,26 @@ using namespace std;
 class Course
 {
 private:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	string courseId;
 	string courseName;
 	string courseDescription;
